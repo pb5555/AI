@@ -1,0 +1,9 @@
+girl(seema).
+fruit(orange).
+name(rohan).
+taller(ram,mohan).
+owns(john,gold).
+red(rose).
+likes(bill,candy).
+male(ram).
+uses(rohan,instagram).

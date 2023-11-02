@@ -1,0 +1,83 @@
+Name: Rohan Jadhav
+Roll no. : A55
+Batch: A3
+
+
+Examples:
+
+1.Seema is a girl.
+2.Orange is fruit.
+3.My name is Rohan.
+4.Ram is taller than mohan.
+5.John owns gold.
+6.Rose is red.
+7.Bill likes candy.
+8.Ram is male.
+9.Rohan uses instagram social media app.
+
+Program: 
+
+girl(seema).
+fruit(orange).
+name(rohan).
+taller(ram,mohan).
+owns(john,gold).
+red(rose).
+likes(bill,candy).
+male(ram).
+uses(rohan,instagram).
+
+Output:
+
+GNU Prolog 1.5.0 (64 bits)
+Compiled Jul  8 2021, 12:22:53 with gcc
+Copyright (C) 1999-2021 Daniel Diaz
+
+compiling C:/Users/admin/Desktop/ROHAN/program.pl for byte code...
+C:/Users/admin/Desktop/ROHAN/program.pl compiled, 10 lines read - 1482 bytes written, 0 ms
+| ?- girl(Who).
+
+Who = seema
+
+yes
+| ?- fruit(What).
+
+What = orange
+
+yes
+| ?- name(What).
+
+What = rohan
+
+yes
+| ?- taller(ram,Who).
+
+Who = mohan
+
+yes
+| ?- owns(john,What).
+
+What = gold
+
+yes
+| ?- red(What).
+
+What = rose
+
+yes
+| ?- likes(bill,What).
+
+What = candy
+
+yes
+| ?- male(Who).
+
+Who = ram
+
+yes
+| ?- uses(Who,What).
+
+What = instagram
+Who = rohan
+
+yes
